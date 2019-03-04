@@ -1,1 +1,3 @@
-Prueba del Tema Monokai
+Tema Oscuro de Monokai
+
+![Monokai Kraimoz](https://)

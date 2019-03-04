@@ -2,7 +2,9 @@
 	"name": "Kraimoz Monokai",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#282923",
+		// "editor.background": "#282923", //Dark (As subl)
+		"editor.background": "#232420", //dark #2
+		// "editor.background": "#1f201c", //dark #3
 		"editor.foreground": "#fcfcfa",
 		"activityBarBadge.background": "#a9dc76",
 		"activityBarBadge.foreground": "#000000",
@@ -15,12 +17,13 @@
 		"tab.inactiveBackground": "#262721",
 		"tab.activeBorder": "#ffd866",
 		"statusBar.background": "#3b3b3b",
+		"statusBar.noFolderBackground": "#3b3b3b",
 		"activityBar.foreground": "#9b9b9b",
 		"activityBar.border": "#292929",
 		"sideBar.foreground": "#9b9b9b",
 		"list.activeSelectionBackground": "#fcd45e5d",
 		"gitDecoration.modifiedResourceForeground": "#ffd666",
-		"gitDecoration.untrackedResourceForeground": "#ff6666",
+		"gitDecoration.untrackedResourceForeground": "#2b5a2e",
 		"gitDecoration.addedResourceForeground": "#a9dc76",
 		"editorGutter.modifiedBackground": "#fda471",
 		
@@ -39,7 +42,9 @@
 		"editorGutter.deletedBackground": "#ff6666",
 		"editorOverviewRuler.addedForeground": "#a9dc76",
 		"editorOverviewRuler.modifiedForeground": "#fda471",
-		"editorOverviewRuler.deletedForeground": "#ff6666c4"
+		"editorOverviewRuler.deletedForeground": "#ff6666c4",
+		"diffEditor.removedTextBackground": "#a1393925",
+		"diffEditor.insertedTextBackground": "#39a13e25"
 		
 	},
 	"tokenColors": [
@@ -261,7 +266,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#FCFCFA"
+				"foreground": "#939293"
 			}
 		},
 		{
@@ -796,6 +801,126 @@
 			"settings": {
 				"foreground": "#EEFFFF"
 			}
-		}
+		},
+
+		//C#
+		{
+			"name": "Entity C#",
+			"scope": [
+				"entity.name.variable.field.cs",
+			],
+			"settings": {
+				"foreground": "#fcfcfa",
+			}
+		},
+		{
+			"name": "C# Namespace",
+			"scope": "entity.name.type.namespace.cs",
+			"settings": {
+				"foreground": "#78dce8",
+			}
+		},
+		{
+			"name": "C# function params",
+			"scope": "entity.name.variable.parameter.cs",
+			"settings": {
+				"foreground": "#fcfcfa",
+			}
+		},
+		{
+			"name": "C# function return type",
+			"scope": "keyword.type.cs",
+			"settings": {
+				"foreground": "#78dce8",
+			}
+		},
+		{
+			"name": "C# Storage",
+			"scope": "storage.type.cs",
+			"settings": {
+				"foreground": "#78dce8",
+			}
+		},
+		{
+			"name": "C# Enum Members",
+			"scope": "entity.name.variable.enum-member.cs",
+			"settings": {
+				"foreground": "#fcfcfa",
+			}
+		},
+		//JAVA
+		{
+			"name": "Java Meta Import",
+			"scope": "storage.modifier.import.java",
+			"settings": {
+				"foreground": "#78dce8",
+			}
+		},
+		//C
+		{
+			"name": "C Meta Import and include",
+			"scope": [
+				"string.quoted.other.lt-gt.include.c",
+			],
+			"settings": {
+				"foreground": "#78dce8",
+			}
+		},
+		{
+			"scope": [
+				"meta.function-call.c",
+
+			],
+			"settings": {
+				"foreground": "#fcfcfa",
+			}
+		},
+		//Python
+		{
+			"scope": [
+				"variable.parameter.function.language.python",
+			],
+			"settings": {
+				"foreground": "#fda471",
+			}
+		},
+		//react
+		{
+			"scope": [
+				"meta.tag.js.jsx",
+				"meta.jsx.children.js.jsx"
+			],
+			"settings": {
+				"foreground": "#fcfcfa",
+			}
+		},
+		//sql
+		{
+			"scope": [
+				"keyword.other.DDL.create.II.sql",
+			],
+			"settings": {
+				"foreground": "#a9dc76",
+			}
+		},
+		//markdown
+		{
+			"scope": [
+				"entity.name.section.markdown",
+			],
+			"settings": {
+				"foreground": "#ffd866",
+				"fontStyle": "italic bold"
+			}
+		},
+		{
+			"scope": [
+				"markup.heading.markdown punctuation.definition.heading.markdown",
+			],
+			"settings": {
+				// "foreground": "#ffd866",
+				"foreground": "#ff6666c4",
+			}
+		},
 	]
 }
