@@ -22,10 +22,10 @@
 		"activityBar.border": "#292929",
 		"sideBar.foreground": "#9b9b9b",
 		"list.activeSelectionBackground": "#fcd45e5d",
-		"gitDecoration.modifiedResourceForeground": "#ffd666",
-		"gitDecoration.untrackedResourceForeground": "#2b5a2e",
+		"gitDecoration.modifiedResourceForeground": "#a9dc76",
+		"gitDecoration.untrackedResourceForeground": "#fda471",
 		"gitDecoration.addedResourceForeground": "#a9dc76",
-		"editorGutter.modifiedBackground": "#fda471",
+		"editorGutter.modifiedBackground": "#ffd666",
 		
 		"editorGutter.addedBackground": "#a9dc76",
 		"statusBar.debuggingBackground": "#ff6666c4",
@@ -43,8 +43,10 @@
 		"editorOverviewRuler.addedForeground": "#a9dc76",
 		"editorOverviewRuler.modifiedForeground": "#fda471",
 		"editorOverviewRuler.deletedForeground": "#ff6666c4",
-		"diffEditor.removedTextBackground": "#a1393925",
-		"diffEditor.insertedTextBackground": "#39a13e25"
+		//diff editor
+		"diffEditor.removedTextBackground": "#d8373725", 
+		"diffEditor.insertedTextBackground": "#44be141f",
+		"list.inactiveSelectionForeground": "#ffd666"
 		
 	},
 	"tokenColors": [
