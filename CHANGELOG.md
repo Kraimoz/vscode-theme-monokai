@@ -1,6 +1,16 @@
 # Change Log
 All notable changes to the "kraimoz-themes" extension will be documented in this file.
 
+## [1.0.5] - 2019-03-17
+### Added
+- Se añadió una versión flat (nueva paleta con colores más pálidos para algunas pantallas)
+
+### Changed
+- Color gitDecoration.modifiedResourceForeground
+- Color gitDecoration.untrackedResourceForeground
+- Color gitDecoration.addedResourceForeground
+- Color gitDecoration.modifiedBackground
+
 ## [1.0.4] - 2019-03-03
 ### Added
 - Soporte para C#

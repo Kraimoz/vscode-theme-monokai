@@ -4,7 +4,7 @@
 	"colors": {
 		"editor.background": "#232420",
 		"editor.foreground": "#fcfcfa",
-		"activityBarBadge.background": "#A3E076",
+		"activityBarBadge.background": "#FFD569",
 		"activityBarBadge.foreground": "#000000",
 		"activityBar.inactiveForeground": "#5f5f5f",
 		"sideBarTitle.foreground": "#5e5e5e",
@@ -20,22 +20,23 @@
 		"activityBar.border": "#292929",
 		"sideBar.foreground": "#9b9b9b",
 		"list.activeSelectionBackground": "#fcd45e5d",
-		"gitDecoration.modifiedResourceForeground": "#ffd666",
-		"gitDecoration.untrackedResourceForeground": "#2b5a2e",
-		"gitDecoration.addedResourceForeground": "#A3E076",
-		"editorGutter.modifiedBackground": "#FD971F",
+		"gitDecoration.modifiedResourceForeground": "#a9dc76",
+		"gitDecoration.untrackedResourceForeground": "#fda471",
+		"gitDecoration.addedResourceForeground": "#a9dc76",
+		"editorGutter.modifiedBackground": "#FFD569",
 		
 		"editorGutter.addedBackground": "#A3E076",
 		"statusBar.debuggingBackground": "#ff6666c4",
 		"editorGroupHeader.tabsBackground": "#2d2e27",
-		"panelTitle.activeForeground": "#ffd666",
-		"panelTitle.activeBorder": "#ffd666",
+		"panelTitle.activeForeground": "#FFD569",
+		"panelTitle.activeBorder": "#FFD569",
 		"textLink.foreground": "#A3E076",
 		"dropdown.foreground": "#A3E076",
 		"list.inactiveFocusBackground": "#464646",
 		"list.highlightForeground": "#c0c0c0",
 		"list.warningForeground": "#A3E076",
 		"list.inactiveSelectionBackground": "#77777744",
+		"list.inactiveSelectionForeground": "#FFD569",
 		"editor.lineHighlightBackground": "#64646421",
 		"editorGutter.deletedBackground": "#ff6666",
 		"editorOverviewRuler.addedForeground": "#A3E076",
@@ -90,6 +91,13 @@
 			"scope": "constant.other.php",
 			"settings": {
 				"foreground": "#B287FF"
+			}
+		},
+		{
+			"scope": "constant.character.escape.php",
+			"settings": {
+				"foreground": "#B287FF",
+				"fontStyle": "",
 			}
 		},
 		{

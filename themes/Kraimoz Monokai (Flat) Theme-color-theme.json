@@ -20,22 +20,23 @@
 		"activityBar.border": "#292929",
 		"sideBar.foreground": "#9b9b9b",
 		"list.activeSelectionBackground": "#fcd45e5d",
-		"gitDecoration.modifiedResourceForeground": "#ffd666",
-		"gitDecoration.untrackedResourceForeground": "#2b5a2e",
+		"gitDecoration.modifiedResourceForeground": "#a9dc76",
+		"gitDecoration.untrackedResourceForeground": "#fda471",
 		"gitDecoration.addedResourceForeground": "#a9dc76",
-		"editorGutter.modifiedBackground": "#fda471",
+		"editorGutter.modifiedBackground": "#FFD569",
 
 		"editorGutter.addedBackground": "#a9dc76",
 		"statusBar.debuggingBackground": "#ff6666c4",
 		"editorGroupHeader.tabsBackground": "#2d2e27",
-		"panelTitle.activeForeground": "#ffd666",
-		"panelTitle.activeBorder": "#ffd666",
+		"panelTitle.activeForeground": "#FFD569",
+		"panelTitle.activeBorder": "#FFD569",
 		"textLink.foreground": "#a9dc76",
 		"dropdown.foreground": "#a9dc76",
 		"list.inactiveFocusBackground": "#464646",
 		"list.highlightForeground": "#c0c0c0",
 		"list.warningForeground": "#a9dc76",
 		"list.inactiveSelectionBackground": "#77777744",
+		"list.inactiveSelectionForeground": "#FFD569",
 		"editor.lineHighlightBackground": "#64646421",
 		"editorGutter.deletedBackground": "#ff6666",
 		"editorOverviewRuler.addedForeground": "#a9dc76",
@@ -89,6 +90,13 @@
 			"scope": "constant.other.php",
 			"settings": {
 				"foreground": "#ab9df2"
+			}
+		},
+		{
+			"scope": "constant.character.escape.php",
+			"settings": {
+				"foreground": "#B287FF",
+				"fontStyle": "",
 			}
 		},
 		{
