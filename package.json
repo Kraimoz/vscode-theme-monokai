@@ -17,6 +17,11 @@
                 "label": "Monokai Kraimoz",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Kraimoz Monokai Theme-color-theme.json"
+            },
+            {
+                "label": "Monokai Kraimoz (Flat)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Kraimoz Monokai (Flat) Theme-color-theme.json"
             }
         ]
     }
