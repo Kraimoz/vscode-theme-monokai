@@ -934,6 +934,20 @@
 
 				"foreground": "#ff6666c4"
 			}
+		},
+		{
+			"scope": [
+				"meta.function-call.generic.python",
+			],
+			"settings": {
+				"foreground": "#afda85"
+			}
+		},
+		{
+			"scope": "meta.function-call.arguments.python",
+			"settings": {
+				"foreground": "#ffffff"
+			}
 		}
 	]
 }

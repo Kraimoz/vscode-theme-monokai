@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to the "kraimoz-themes" extension will be documented in this file.
 
+## [1.0.7] - 2024-06-14
+### Added
+- Soporte nombre clases y argumentos Python. (Versión Flat)
+
 ## [1.0.6] - 2024-06-13
 ### Changed
 - Cambios en colores para evitar el contraste entre los componentes y el fondo. (Versión Flat)
