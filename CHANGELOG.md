@@ -1,11 +1,10 @@
 # Change Log
 All notable changes to the "kraimoz-themes" extension will be documented in this file.
 
-## [1.0.5] - 2024-06-13
+## [1.0.6] - 2024-06-13
 ### Changed
 - Cambios en colores para evitar el contraste entre los componentes y el fondo. (Versión Flat)
 
-- Se añadió una versión flat (nueva paleta con colores más pálidos para algunas pantallas)
 ## [1.0.5] - 2019-03-17
 ### Added
 - Se añadió una versión flat (nueva paleta con colores más pálidos para algunas pantallas)
