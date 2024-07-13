@@ -1,6 +1,14 @@
 # Change Log
 All notable changes to the "kraimoz-themes" extension will be documented in this file.
 
+## [1.0.8] - 2024-06-15
+### Changed
+- Color tab.activeBackground
+- Color tab.inactiveBackground
+- Color editorGroupHeader.tabsBorder
+- Color titleBar.activeBackground
+- Color list.warningForeground
+
 ## [1.0.7] - 2024-06-14
 ### Added
 - Soporte nombre clases y argumentos Python. (Versión Flat)
