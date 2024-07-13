@@ -2,49 +2,58 @@
 	"name": "Kraimoz Monokai (Flat)",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#232420",
+		"editor.background": "#2d2b2e",
 		"editor.foreground": "#fcfcfa",
-		"activityBarBadge.background": "#a9dc76",
+		"activityBarBadge.background": "#FFD569",
 		"activityBarBadge.foreground": "#000000",
 		"activityBar.inactiveForeground": "#5f5f5f",
 		"sideBarTitle.foreground": "#5e5e5e",
-		"sideBar.background": "#21221d",
-		"editorGutter.background": "#262721",
+		"sideBar.background": "#2d2b2e",
+		"sideBar.border": "#555555",
 		"activityBar.background": "#1c1d1a",
 		"tab.activeBackground": "#21221d",
 		"tab.inactiveBackground": "#262721",
 		"tab.activeBorder": "#ffd866",
-		"statusBar.background": "#3b3b3b",
+		"tab.activeForeground": "#ffd866",
+		"tab.inactiveForeground": "#b3b3b3",
+		"statusBar.background": "#2f2f2f",
 		"statusBar.noFolderBackground": "#3b3b3b",
+		"statusBar.foreground": "#acacac",
 		"activityBar.foreground": "#9b9b9b",
 		"activityBar.border": "#292929",
 		"sideBar.foreground": "#9b9b9b",
 		"list.activeSelectionBackground": "#fcd45e5d",
-		"gitDecoration.modifiedResourceForeground": "#a9dc76",
+		"gitDecoration.modifiedResourceForeground": "#FFD569",
 		"gitDecoration.untrackedResourceForeground": "#fda471",
-		"gitDecoration.addedResourceForeground": "#a9dc76",
+		"gitDecoration.addedResourceForeground": "#afda85",
+		"diffEditor.insertedLineBackground": "#5262426e",
+		"diffEditor.removedLineBackground": "#ff666637",
+		"diffEditorGutter.removedLineBackground": "#ff666637",
+		"diffEditorGutter.insertedLineBackground": "#5262426e",
+		"editorGutter.background": "#2d2b2e",
 		"editorGutter.modifiedBackground": "#FFD569",
-
-		"editorGutter.addedBackground": "#a9dc76",
+		"editorGutter.addedBackground": "#afda85",
+		"editorGutter.deletedBackground": "#ff6666",
 		"statusBar.debuggingBackground": "#ff6666c4",
 		"editorGroupHeader.tabsBackground": "#2d2e27",
 		"panelTitle.activeForeground": "#FFD569",
 		"panelTitle.activeBorder": "#FFD569",
-		"textLink.foreground": "#a9dc76",
-		"dropdown.foreground": "#a9dc76",
+		"editorSuggestWidget.background": "#3b3b3b",
+		"editorWidget.background": "#3b3b3b",
+		"textLink.foreground": "#FFD569",
+		"textLink.activeForeground": "#b3954a",
+		"dropdown.foreground": "#afda85",
 		"list.inactiveFocusBackground": "#464646",
 		"list.highlightForeground": "#c0c0c0",
-		"list.warningForeground": "#a9dc76",
+		"list.warningForeground": "#afda85",
 		"list.inactiveSelectionBackground": "#77777744",
 		"list.inactiveSelectionForeground": "#FFD569",
-		"editor.lineHighlightBackground": "#64646421",
-		"editorGutter.deletedBackground": "#ff6666",
-		"editorOverviewRuler.addedForeground": "#a9dc76",
+		"editor.lineHighlightBackground": "#74747421",
+		"editorOverviewRuler.addedForeground": "#afda85",
 		"editorOverviewRuler.modifiedForeground": "#fda471",
 		"editorOverviewRuler.deletedForeground": "#ff6666c4",
 		"diffEditor.removedTextBackground": "#a1393925",
 		"diffEditor.insertedTextBackground": "#39a13e25"
-
 	},
 	"tokenColors": [{
 			"scope": [
@@ -121,7 +130,7 @@
 		{
 			"scope": "entity.name.function",
 			"settings": {
-				"foreground": "#a9dc76"
+				"foreground": "#afda85"
 			}
 		},
 		{
@@ -156,14 +165,14 @@
 		{
 			"scope": "entity.name",
 			"settings": {
-				"foreground": "#a9dc76"
+				"foreground": "#afda85"
 			}
 		},
 		{
 			"scope": "storage.modifier",
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#f76d6de0"
+				"foreground": "#fa8282e0"
 			}
 		},
 		{
@@ -184,14 +193,13 @@
 		{
 			"scope": "support.function",
 			"settings": {
-				"foreground": "#a9dc76"
+				"foreground": "#afda85"
 			}
 		},
 		{
 			"scope": "support.class",
 			"settings": {
 				"foreground": "#78dce8",
-				"fontStyle": "italic"
 			}
 		},
 		{
@@ -420,7 +428,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#a9dc76",
+				"foreground": "#afda85",
 				"fontStyle": "italic"
 			}
 		},
@@ -432,7 +440,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#a9dc76"
+				"foreground": "#afda85"
 			}
 		},
 		{
@@ -905,7 +913,7 @@
 				"keyword.other.DDL.create.II.sql"
 			],
 			"settings": {
-				"foreground": "#a9dc76"
+				"foreground": "#afda85"
 			}
 		},
 
