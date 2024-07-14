@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to the "kraimoz-themes" extension will be documented in this file.
 
+## [1.0.9] - 2024-06-15
+### Changed
+- Color list.hoverBackground
+- Color statusBar.debuggingForeground
+
 ## [1.0.8] - 2024-06-15
 ### Changed
 - Color tab.activeBackground

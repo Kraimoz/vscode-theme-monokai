@@ -3,7 +3,7 @@
     "displayName": "Monokai Kraimoz ",
     "description": "Dark Theme Monokai",
     "publisher": "Kraimoz",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "engines": {
         "vscode": "^1.31.0"
     },
