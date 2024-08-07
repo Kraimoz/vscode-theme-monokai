@@ -1,12 +1,13 @@
 # Change Log
 All notable changes to the "kraimoz-themes" extension will be documented in this file.
 
-## [1.0.10] - 2024-08-06
-### Changed
+## [1.0.11] - 2024-08-06
+### Added
 - Color activityBar
 - Color list
 - Color panelTitle
 - Color terminal
+- Color debugConsole
 
 ## [1.0.9] - 2024-06-15
 ### Changed

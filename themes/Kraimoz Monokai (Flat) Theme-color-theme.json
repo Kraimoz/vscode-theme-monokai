@@ -24,17 +24,9 @@
 		"list.inactiveSelectionForeground": "#FFD569",
 		"list.focusOutline": "#383838",
 		"list.hoverBackground": "#3d3b3e",
-		"list.focusHighlightForeground":"#3d3b3e",
 		"list.activeSelectionForeground": "#ffffff",
 		"list.hoverForeground": "#FFD569",
-		//
-		"tab.selectedBackground":"#69ebff",
-		"menu.selectionForeground":"#69ebff",
-		"menu.selectionBackground":"#69ebff",
-		"selection.background":"#69ebff",
-		"tab.selectedForeground":"#69ebff",
-		"menubar.selectionBackground":"#69ebff",
-		"menubar.selectionForeground":"#69ebff",
+		"list.highlightForeground": "#FFD569",
 		//
 		"tab.activeBackground": "#2d2b2e",
 		"tab.inactiveBackground": "#2d2b2e",
@@ -60,6 +52,10 @@
 		"editorGutter.deletedBackground": "#ff6666",
 		"statusBar.debuggingBackground": "#ff6666c4",
 		"statusBar.debuggingForeground": "#f1f1f1",
+		"statusBarItem.compactHoverBackground":"#FFD569",
+		"statusBarItem.hoverBackground":"#ab464680",
+		"statusBarItem.hoverForeground":"#fcfcfa",
+		//
 		"editorGroupHeader.tabsBackground": "#2d2b2e",
 		"editorSuggestWidget.background": "#3b3b3b",
 		"editorWidget.background": "#3b3b3b",
@@ -78,7 +74,7 @@
 		"panelTitle.activeForeground": "#FFD569",
 		"panelTitle.inactiveForeground":"#9b9b9b",
 		"panelTitle.activeBorder": "#FFD569",
-		// console 
+		// terminal 
 		"terminal.background":"#3c3c3c",
 		"terminal.foreground": "#ebebeb",
 		"terminal.ansiBlack": "#000000",
@@ -93,13 +89,16 @@
 		"terminal.ansiBrightRed": "#f14c4c",
 		"terminal.ansiBrightGreen": "#23d18b",
 		"terminal.ansiBrightYellow": "#f5f543",
-		"terminal.ansiBrightBlue": "#3b8eea",
+		"terminal.ansiBrightBlue": "#29b8db",
 		"terminal.ansiBrightMagenta": "#d670d6",
 		"terminal.ansiBrightCyan": "#29b8db",
 		"terminal.ansiBrightWhite": "#e5e5e5",
 		"terminalCursor.foreground": "#ffffff",
 		"terminalCursor.background": "#000000",
-		"terminal.border": "#888888"
+		"terminal.border": "#888888",
+		// debugConsole
+		"debugConsole.infoForeground":"#29b8db",
+		"debugConsole.warningForeground":"#fda471",		
 	},
 	"tokenColors": [{
 			"scope": [
