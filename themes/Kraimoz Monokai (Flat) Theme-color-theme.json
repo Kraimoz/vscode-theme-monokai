@@ -4,14 +4,38 @@
 	"colors": {
 		"editor.background": "#2d2b2e",
 		"editor.foreground": "#fcfcfa",
+		// activityBar
+		"activityBar.foreground": "#9b9b9b",
+		"activityBar.border": "#1f1f1f",
+		"activityBar.background": "#1c1d1a",
+		"activityBar.inactiveForeground": "#5f5f5f",
 		"activityBarBadge.background": "#FFD569",
 		"activityBarBadge.foreground": "#000000",
-		"activityBar.inactiveForeground": "#5f5f5f",
+		// sidebar
 		"sideBarTitle.foreground": "#5e5e5e",
-		"sideBar.background": "#2d2b2e",
-		"sideBar.border": "#555555",
+		"sideBar.background": "#222224",
+		"sideBar.border": "#232323",
+		"sideBar.foreground": "#9b9b9b",
+		"sideBarSectionHeader.background": "#272727",
+		// list
+		"list.focusForeground":"#FFD569",
+		"list.inactiveFocusBackground": "#464646",
+		"list.inactiveSelectionBackground": "#383838",
+		"list.inactiveSelectionForeground": "#FFD569",
+		"list.focusOutline": "#383838",
 		"list.hoverBackground": "#3d3b3e",
-		"activityBar.background": "#1c1d1a",
+		"list.focusHighlightForeground":"#3d3b3e",
+		"list.activeSelectionForeground": "#ffffff",
+		"list.hoverForeground": "#FFD569",
+		//
+		"tab.selectedBackground":"#69ebff",
+		"menu.selectionForeground":"#69ebff",
+		"menu.selectionBackground":"#69ebff",
+		"selection.background":"#69ebff",
+		"tab.selectedForeground":"#69ebff",
+		"menubar.selectionBackground":"#69ebff",
+		"menubar.selectionForeground":"#69ebff",
+		//
 		"tab.activeBackground": "#2d2b2e",
 		"tab.inactiveBackground": "#2d2b2e",
 		"tab.activeBorder": "#ffd866",
@@ -20,9 +44,6 @@
 		"statusBar.background": "#2f2f2f",
 		"statusBar.noFolderBackground": "#3b3b3b",
 		"statusBar.foreground": "#acacac",
-		"activityBar.foreground": "#9b9b9b",
-		"activityBar.border": "#292929",
-		"sideBar.foreground": "#9b9b9b",
 		"list.activeSelectionBackground": "#fcd45e5d",
 		"editorGroupHeader.tabsBorder": "#3b3b3b",
 		"titleBar.activeBackground": "#292929",
@@ -40,24 +61,45 @@
 		"statusBar.debuggingBackground": "#ff6666c4",
 		"statusBar.debuggingForeground": "#f1f1f1",
 		"editorGroupHeader.tabsBackground": "#2d2b2e",
-		"panelTitle.activeForeground": "#FFD569",
-		"panelTitle.activeBorder": "#FFD569",
 		"editorSuggestWidget.background": "#3b3b3b",
 		"editorWidget.background": "#3b3b3b",
 		"textLink.foreground": "#FFD569",
 		"textLink.activeForeground": "#b3954a",
 		"dropdown.foreground": "#afda85",
-		"list.inactiveFocusBackground": "#464646",
-		"list.highlightForeground": "#c0c0c0",
-		"list.warningForeground": "#fda471",
-		"list.inactiveSelectionBackground": "#77777744",
-		"list.inactiveSelectionForeground": "#FFD569",
 		"editor.lineHighlightBackground": "#74747421",
 		"editorOverviewRuler.addedForeground": "#afda85",
 		"editorOverviewRuler.modifiedForeground": "#fda471",
 		"editorOverviewRuler.deletedForeground": "#ff6666c4",
 		"diffEditor.removedTextBackground": "#a1393925",
-		"diffEditor.insertedTextBackground": "#39a13e25"
+		"diffEditor.insertedTextBackground": "#39a13e25",
+		// console - tabs
+		"panel.background": "#3c3c3c",
+		"panel.border": "#3c3c3c",
+		"panelTitle.activeForeground": "#FFD569",
+		"panelTitle.inactiveForeground":"#9b9b9b",
+		"panelTitle.activeBorder": "#FFD569",
+		// console 
+		"terminal.background":"#3c3c3c",
+		"terminal.foreground": "#ebebeb",
+		"terminal.ansiBlack": "#000000",
+		"terminal.ansiRed": "#cd3131",
+		"terminal.ansiGreen": "#afda85",
+		"terminal.ansiYellow": "#FFD569",
+		"terminal.ansiBlue": "#fda471",
+		"terminal.ansiMagenta": "#bc3fbc",
+		"terminal.ansiCyan": "#11a8cd",
+		"terminal.ansiWhite": "#e5e5e5",
+		"terminal.ansiBrightBlack": "#666666",
+		"terminal.ansiBrightRed": "#f14c4c",
+		"terminal.ansiBrightGreen": "#23d18b",
+		"terminal.ansiBrightYellow": "#f5f543",
+		"terminal.ansiBrightBlue": "#3b8eea",
+		"terminal.ansiBrightMagenta": "#d670d6",
+		"terminal.ansiBrightCyan": "#29b8db",
+		"terminal.ansiBrightWhite": "#e5e5e5",
+		"terminalCursor.foreground": "#ffffff",
+		"terminalCursor.background": "#000000",
+		"terminal.border": "#888888"
 	},
 	"tokenColors": [{
 			"scope": [
@@ -305,7 +347,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -336,7 +378,7 @@
 				"variable.parameter"
 			],
 			"settings": {
-				"foreground": "#78dce8",
+				"foreground": "#fda471",
 				"fontStyle": "italic"
 			}
 		},
@@ -378,7 +420,8 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#78DCE8",
+				"fontStyle": "italic"
 			}
 		},
 		{
